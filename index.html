@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>Grade Calculator</title>
+		<meta name="description" content="">
+		<meta name="author" content="Cami Williams">
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+		<link rel="shortcut icon" href="resources/img/priorlogo_black.png">
+		<link rel="apple-touch-icon" href="resources/img/priorlogo_black.png">
+
+		<!-- Bootstrap -->
+		<link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="dist/js/bootstrap.min.js"></script>
+
+		<link href = "main_styles.css" type="text/css" rel="stylesheet">
+		<script src="grade_calc.js"></script>
+		<script src="local_storage_manager.js"></script>
+
+		<script src="https://cdn.firebase.com/js/client/2.1.0/firebase.js"></script>
+		<script src="sha256.js"></script>
+
+	</head>
+
+	<body onload="">
+
+		<div id="toolbox">
+      <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+          Edit Class
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Class 1</a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Class 2</a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Class 3</a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Class 4</a></li>
+        </ul>
+      </div>
+      <br>
+      <br>
+      <button class="btn btn-lg btn-primary btn-block" type="submit" onclick="addClass()">Add Class</button>
+
+		</div>
+
+
+			<!-- Bootstrap core JavaScript
+			================================================== -->
+			<!-- Placed at the end of the document so the pages load faster -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+			<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+			<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+	</body>
+</html>
